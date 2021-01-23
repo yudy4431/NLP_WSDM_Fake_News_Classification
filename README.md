@@ -3,7 +3,6 @@ We invite researchers and students in the community to take part in the followin
 
 Task: Fake News Classification  
 
-
 Given the title of a fake news article A and the title of a coming news article B, 
 
 participants are asked to classify B into one of the three categories.  
@@ -14,6 +13,8 @@ agreed: B talks about the same fake news as A
 disagreed: B refutes the fake news in A 
 
 unrelated: B is unrelated to A  
+
+
 
 
 File: 
@@ -30,6 +31,8 @@ The remaining 75% private data is used to calculate your final result of the com
 
 
 sample_submission.csv - sample answer to the testing data.  
+
+
 
 
 Data fields: 
@@ -49,6 +52,8 @@ title1_en - the fake news title 1 in English.
 title2_en - the news title 2 in English. 
 
 label - indicates the relation between the news pair: agreed/disagreed/unrelated.  
+
+
 
 
 The English titles are machine translated from the related Chinese titles. 
